@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>about</title>
+</head>
+<body>
+<div>
+    This tutorial has been put together by
+    <strong>{{ authorName }}</strong>!!!<br/>
+</div>
+<div>
+    <a href="/rango/">Index</a><br/>
+    <img src="{{ MEDIA_URL}}cat.jpg", alt="Picture of Elgin the Cat from Rango"/> <!-- New line -->
+</div>
+</body>
+</html>
